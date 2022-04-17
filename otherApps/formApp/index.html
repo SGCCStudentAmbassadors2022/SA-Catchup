@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document - TA Catchup</title>
+    <link href="style.css" rel="stylesheet",type="text/css">
+    <link href="imgs/fuegoleon_hannan.jpeg" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <div id="content">
+
+    </div>
+    <!-- got uncaught error by forgetting content div at first -->
+    <form id="formInput">
+        <label>Name:</label>
+        <input type="text" id="nameInput">
+        <br>
+        <label>Age:</label>
+        <input type="number" id="age">
+        <!-- no need to use ids^^ anymore since using form, which uses zero-indexing to form array -->
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Male">Male
+        <!-- name to group together so only 1 can be selected, value to assign -->
+        <!-- each of the inputs are indexed even if named similarly -->
+         
+        <br>
+        <label>Payment method:</label>
+        <select>
+            <option value="credit card">Credit card</option>
+            <option value="debit card">Debit card</option>
+        </select>
+        <br>
+        <br>
+        <button id="submit">Submit!</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--<body>
+    <h1>Hello, fellow-- wait, what are you</h1>
+    <img src='Screenshot 2022-03-23 at 4.15.35 PM.png' alt='go refresh, baaaka' height=246 width="234" style="float:right">
+    <img src='fuegoleon_hannan.jpeg' alt='hannan is tasty duck' height=446 width="452" style="float: right">
+    <div id=contentMain>Still testing, yep</div>
+    <p>Experimentation is an interesting thing but the thing is it might not be a thing since it might be a unomicorn. Yay.</p>
+    <div class=section1>This is a test. The test has been quite successful. Beautiful.</div>
+    <div class="container">
+        <h2>So, you see,</h2>
+        <p>I don't really know what you came here expecting, but I sure hope you're satisfied with it ✌🏻 Here is some lorem ipsum text if I can: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dicta dolorum iure enim placeat reiciendis repellat dolorem quasi aliquid quaerat nisi qui quidem sit sapiente tempora, voluptatem rerum cum! Ipsam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat dolores qui explicabo a similique ipsum laudantium velit dolorem suscipit ex! Odio dolor, velit neque fuga esse est eius non commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit esse in dignissimos nemo perferendis, sint quidem voluptas consequuntur debitis voluptatem ab voluptate! Magnam, qui ducimus voluptas perspiciatis voluptatum quaerat officiis?</p>
+    </div>
+    <h3>cya</h3>
+    <h4>Wait, how many</h4>
+    <h5>of these header things</h5>
+    <h6>are here anyway</h6>
+    <h7>Is h7 a thing - oh, I guess not, huh.</h7>
+    <header>I wonder what this header tag does tho</header>
+    <p>k now actually goodbye</p>
+</body>
+</html>

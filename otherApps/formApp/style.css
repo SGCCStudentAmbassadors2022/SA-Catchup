@@ -1,0 +1,33 @@
+/*px or em for font-size
+em is relative to screen size*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=ZCOOL+XiaoWei&display=swap');
+
+body{
+    color:rgb(0, 0, 0);
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-size:1em;
+    font-weight:lighter;
+    font-style:normal;
+    margin:25px 25px 25px
+}
+
+#contentMain{
+    color:teal;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size:3em;
+    font-weight:bold;
+    text-decoration-line:underline
+}
+
+.section1{
+    color:thistle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+.container{
+    display:flex;
+    color:rgb(55, 84, 214);
+    grid-area:rgb(40, 60, 300)
+}
